@@ -152,7 +152,14 @@ img {
 
     .lessons .col {
         width: 100%;
-        padding-bottom: 70px;
+    }
+
+    .lessons .col:first-child {
+        margin-bottom: 60px;
+    }
+
+    .lessons .col:last-child {
+        margin-bottom: 40px;
     }
 
     .steps .col {
